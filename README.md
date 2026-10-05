@@ -27,6 +27,18 @@ The fine-tuned student model is used as the sentence encoder to obtain semantic 
   Combines semantic similarity and graph-based scores to improve candidate ranking for complex queries.
   
 ## Methodology
+### Phase I: Model Construction
+文字
+<img width="1550" height="725" alt="image" src="https://github.com/user-attachments/assets/dbcd0c3f-da4d-4350-8d83-6223aae426aa" />
+<img width="1745" height="406" alt="image" src="https://github.com/user-attachments/assets/83f46ac0-0b67-4e88-9504-c4633a1a8e7b" />
+
+### Phase II: Candidate Set Generation
+文字
+<img width="2204" height="403" alt="image" src="https://github.com/user-attachments/assets/9278ce4c-b617-402c-8e4b-0ba4d44ea2c1" />
+
+### Phase III: Query Sentence Matching
+文字
+<img width="1575" height="444" alt="image" src="https://github.com/user-attachments/assets/d526cf14-1913-4306-afb4-ae0a0099d551" />
 
 ## Dataset
 KCL-SSM was evaluated on four sentence matching datasets, including three public intent classification benchmarks and one real-world domain-specific dataset.
@@ -53,10 +65,9 @@ Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
 ## How to Run
 
 細節
-<img width="1550" height="725" alt="image" src="https://github.com/user-attachments/assets/dbcd0c3f-da4d-4350-8d83-6223aae426aa" />
-<img width="1745" height="406" alt="image" src="https://github.com/user-attachments/assets/83f46ac0-0b67-4e88-9504-c4633a1a8e7b" />
-<img width="2204" height="403" alt="image" src="https://github.com/user-attachments/assets/9278ce4c-b617-402c-8e4b-0ba4d44ea2c1" />
-<img width="1575" height="444" alt="image" src="https://github.com/user-attachments/assets/d526cf14-1913-4306-afb4-ae0a0099d551" />
+
+
+
 
 
 ```
