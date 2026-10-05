@@ -97,27 +97,16 @@ KCL-SSM was evaluated on four sentence matching datasets, including three public
 
 ## Experimental Results
 
-### Banking77
+KCL-SSM was evaluated on three public intent classification benchmarks and one real-world domain-specific dataset.
 
-| Metric | KCL-SSM |
-|---|---:|
-| Top-1 Accuracy | **88.15%** |
-| MRR | **91.24%** |
+| Dataset   |      Acc@1/nDCG@1 |  Acc@3 |  Acc@5 |        MRR | nDCG@3 | nDCG@5 |
+| --------- | ---------: | -----: | -----: | ---------: | -----: | -----: |
+| Banking77 |     93.21% | 97.6% | 98.28% | 95.5% | 95.82% | 96.1% |
+| HWU64     |     94.8% | 97.86% | 98.88% |     96.52% | 96.52% | 96.67% |
+| CLINC150  |     97.42% | 99.29% | 99.44% |     98.37% | 98.56% | 98.6% |
+| Foxconn   | 73.81% | 86.9% | 88.1% |     80.61% | 81.5% | 80.2% |
 
-### Foxconn
-
-The Foxconn test set contains 84 real-world queries.
-
-| Method / Strategy | Acc@1 | Inference Time |
-|---|---:|---:|
-| KCL-SSM | 73.8% | - |
-| M2 | **75.0%** | 44.682 ms |
-| M4 | **75.0%** | **12.920 ms** |
-| M1 | 65.5% | - |
-| M3 | 72.6% | - |
-| M3 + M4 | 72.6% | - |
-
-Additional evaluation includes **Acc@1, Acc@3, Acc@5, MRR, and nDCG**.
+The results demonstrate the effectiveness of KCL-SSM for semantic matching across both public benchmark datasets and real-world domain-specific queries.
 
 ## Project Structure
 
@@ -169,8 +158,6 @@ KCL-SSM-Portfolio/
 
 - Python
 - PyTorch
-- Hugging Face Transformers
-- `hfl/chinese-roberta-wwm-ext`
 - Contrastive Learning
 - Knowledge Distillation
 - Teacher-Student Architecture
@@ -209,4 +196,4 @@ For privacy and project restrictions, raw real-world user data and other non-pub
 
 ## Technologies
 
-**Python · PyTorch · Transformer · Contrastive Learning · Knowledge Distillation · Knowledge Graph · Aho-Corasick · LLM Data Augmentation · Semantic Matching**
+**Python · PyTorch · Transformer · Contrastive Learning · Knowledge Distillation · Knowledge Graph · Aho-Corasick · LLM Data Augmentation · Sentence Semantic Matching**
