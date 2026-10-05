@@ -14,6 +14,21 @@ The framework integrates three key components:
 
 The framework was evaluated on multiple public datasets and a real-world industrial dataset. Experimental results demonstrate the effectiveness of combining semantic learning with structured knowledge for domain-specific question matching.
 
+## Dataset
+
+KCL-SSM was evaluated on four sentence matching datasets, including three public intent classification benchmarks and one real-world domain-specific dataset.
+
+| Dataset | # Train (seq.) | # Test (seq.) | # Number of Classes |
+|---|---:|---:|---:|
+| Banking77 | 10,003 | 3,080 | 77 |
+| HWU64 | 8,954 | 1,076 | 64 |
+| CLINC150 | 18,000 | 4,500 | 150 |
+| **Foxconn** | **1,809** | **84** | **251** |
+
+For the Foxconn dataset, the task focuses on matching colloquial user queries to 251 predefined standard questions in a real-world traffic adjudication customer service scenario.
+
+
+
 
 # Environment Setting
 Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
@@ -22,8 +37,6 @@ Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
 
 2. Create the NLP Conda environment. This may take a while, depending on the network status
 
-
-整體流程圖
 
 
 細節
