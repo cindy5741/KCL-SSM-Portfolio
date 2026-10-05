@@ -5,6 +5,17 @@ Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
 
 2. Create the NLP Conda environment. This may take a while, depending on the network status
 
+
+整體流程圖
+<img width="2401" height="988" alt="image" src="https://github.com/user-attachments/assets/58e27f52-f101-4c60-8242-bfcbb03ec929" />
+
+細節
+<img width="1550" height="725" alt="image" src="https://github.com/user-attachments/assets/dbcd0c3f-da4d-4350-8d83-6223aae426aa" />
+<img width="1745" height="406" alt="image" src="https://github.com/user-attachments/assets/83f46ac0-0b67-4e88-9504-c4633a1a8e7b" />
+<img width="2204" height="403" alt="image" src="https://github.com/user-attachments/assets/9278ce4c-b617-402c-8e4b-0ba4d44ea2c1" />
+<img width="1575" height="444" alt="image" src="https://github.com/user-attachments/assets/d526cf14-1913-4306-afb4-ae0a0099d551" />
+
+
 ```
 conda create -n NLP python=3.9
 ```
