@@ -93,6 +93,11 @@ KCL-SSM was evaluated on four sentence matching datasets, including three public
 | CLINC150 | 18,000 | 4,500 | 150 |
 | **Foxconn** | **1,809** | **84** | **251** |
 
+### Foxconn Dataset
+
+The Foxconn dataset was collected through an industry–academia collaboration with a publicly listed company and originates from the Kaohsiung City Traffic Adjudication Office. It consists of real customer service queries from a transportation-related scenario and is designed for standard question matching.
+
+The dataset contains 251 standard questions, 1,809 training utterances, and 84 test utterances. As the data were collected from real customer service interactions, they reflect practical challenges in enterprise applications, including limited training data, highly colloquial user expressions, and overlapping fine-grained intents.
 > **Note:** Raw datasets and user data are not included in this repository.
 
 ## Experimental Results
@@ -106,11 +111,7 @@ KCL-SSM was evaluated on three public intent classification benchmarks and one r
 | CLINC150  |     97.42% | 99.29% | 99.44% |     98.37% | 98.56% | 98.6% |
 | Foxconn   | 73.81% | 86.9% | 88.1% |     80.61% | 81.5% | 80.2% |
 
-### Foxconn Dataset
-
-The Foxconn dataset was collected through an industry–academia collaboration with a publicly listed company and originates from the Kaohsiung City Traffic Adjudication Office. It consists of real customer service queries from a transportation-related scenario and is designed for standard question matching.
-
-The dataset contains 251 standard questions, 1,809 training utterances, and 84 test utterances. As the data were collected from real customer service interactions, they reflect practical challenges in enterprise applications, including limited training data, highly colloquial user expressions, and overlapping fine-grained intents.
+The results demonstrate the effectiveness of KCL-SSM for semantic matching across both public benchmark datasets and real-world domain-specific queries.
 
 ## Project Structure
 
