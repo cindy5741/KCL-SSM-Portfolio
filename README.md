@@ -86,7 +86,7 @@ The application demonstrates how semantic matching can bridge the lexical gap be
 
 KCL-SSM was evaluated on four sentence matching datasets, including three public intent classification benchmarks and one real-world domain-specific dataset.
 
-| Dataset | # Train | # Test | # Classes |
+| Dataset | Train Queries | Test Queries | Standard Questions |
 |---|---:|---:|---:|
 | Banking77 | 10,003 | 3,080 | 77 |
 | HWU64 | 8,954 | 1,076 | 64 |
@@ -98,6 +98,7 @@ KCL-SSM was evaluated on four sentence matching datasets, including three public
 The Foxconn dataset was collected through an industry–academia collaboration with a publicly listed company and originates from the Kaohsiung City Traffic Adjudication Office. It consists of real customer service queries from a transportation-related scenario and is designed for standard question matching.
 
 The dataset contains 251 standard questions, 1,809 training utterances, and 84 test utterances. As the data were collected from real customer service interactions, they reflect practical challenges in enterprise applications, including limited training data, highly colloquial user expressions, and overlapping fine-grained intents.
+
 > **Note:** Raw datasets and user data are not included in this repository.
 
 ## Experimental Results
