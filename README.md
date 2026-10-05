@@ -1,3 +1,20 @@
+# KCL-SSM
+## Contrastive Learning Based Sentence Semantic Matching with Knowledge Graph Augmentation
+A sentence semantic matching framework for domain-specific question matching, integrating contrastive learning, knowledge graph-enhanced candidate retrieval, and hybrid scoring.
+<img width="2401" height="988" alt="image" src="https://github.com/user-attachments/assets/58e27f52-f101-4c60-8242-bfcbb03ec929" />
+
+## Overview
+KCL-SSM is a sentence semantic matching framework designed for domain-specific question matching. It addresses common challenges in practical question-answering systems, including fine-grained intent overlap, colloquial expressions, and limited domain-specific labeled data.
+
+The framework integrates three key components:
+
+* **Contrastive Learning** for learning discriminative sentence representations.
+* **Knowledge Graph-Enhanced Candidate Retrieval** for incorporating domain-specific structural knowledge into candidate selection.
+* **Hybrid Scoring** for combining semantic similarity with knowledge-based retrieval signals.
+
+The framework was evaluated on multiple public datasets and a real-world industrial dataset. Experimental results demonstrate the effectiveness of combining semantic learning with structured knowledge for domain-specific question matching.
+
+
 # Environment Setting
 Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
 
@@ -7,7 +24,7 @@ Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
 
 
 整體流程圖
-<img width="2401" height="988" alt="image" src="https://github.com/user-attachments/assets/58e27f52-f101-4c60-8242-bfcbb03ec929" />
+
 
 細節
 <img width="1550" height="725" alt="image" src="https://github.com/user-attachments/assets/dbcd0c3f-da4d-4350-8d83-6223aae426aa" />
