@@ -52,7 +52,6 @@ The Teacher-Student architecture combines LLM-based data augmentation, Contrasti
 <img width="1550" height="725" alt="Teacher-Student Architecture" src="https://github.com/user-attachments/assets/dbcd0c3f-da4d-4350-8d83-6223aae426aa" />
 
 In parallel, a domain-specific Knowledge Graph is constructed from keywords extracted from standard questions. The graph captures relationships among domain concepts and provides structured information for subsequent candidate retrieval.
-
 <img width="1745" height="406" alt="Contrastive Learning Process" src="https://github.com/user-attachments/assets/83f46ac0-0b67-4e88-95a4-c4633a1a8e7b" />
 
 ### Phase II: Candidate Set Generation
