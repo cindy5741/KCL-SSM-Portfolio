@@ -17,7 +17,15 @@ Given a user query, the Aho–Corasick (AC) algorithm is integrated with the dom
 The fine-tuned student model is used as the sentence encoder to obtain semantic representations of the user query and candidate standard questions. Semantic similarity is then combined with graph-based scores through a hybrid scoring strategy to improve the final ranking, particularly for complex or ambiguous queries.
 
 ## Key Features
-
+- **Teacher-Student Architecture**  
+  Uses LLM-generated synthetic queries to pretrain the teacher model and transfers semantic knowledge to the student model through knowledge distillation.
+- **Contrastive Learning**  
+  Learns discriminative sentence representations for fine-grained semantic matching.
+- **Knowledge Graph-Enhanced Candidate Retrieval**  
+  Combines Aho–Corasick keyword matching with a domain-specific knowledge graph to reduce the candidate search space.
+- **Hybrid Scoring**  
+  Combines semantic similarity and graph-based scores to improve candidate ranking for complex queries.
+  
 ## Methodology
 
 ## Dataset
