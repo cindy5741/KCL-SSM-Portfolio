@@ -4,18 +4,23 @@ A sentence semantic matching framework for domain-specific question matching, in
 <img width="2401" height="988" alt="image" src="https://github.com/user-attachments/assets/58e27f52-f101-4c60-8242-bfcbb03ec929" />
 
 ## Overview
-KCL-SSM is a sentence semantic matching framework designed for domain-specific question matching. It addresses common challenges in practical question-answering systems, including fine-grained intent overlap, colloquial expressions, and limited domain-specific labeled data.
 
-The framework integrates three key components:
+KCL-SSM is ...
 
-* **Contrastive Learning** for learning discriminative sentence representations.
-* **Knowledge Graph-Enhanced Candidate Retrieval** for incorporating domain-specific structural knowledge into candidate selection.
-* **Hybrid Scoring** for combining semantic similarity with knowledge-based retrieval signals.
+### Phase I: Model Construction
+...
 
-The framework was evaluated on multiple public datasets and a real-world industrial dataset. Experimental results demonstrate the effectiveness of combining semantic learning with structured knowledge for domain-specific question matching.
+### Phase II: Candidate Set Generation
+...
+
+### Phase III: Query Sentence Matching
+...
+
+## Key Features
+
+## Methodology
 
 ## Dataset
-
 KCL-SSM was evaluated on four sentence matching datasets, including three public intent classification benchmarks and one real-world domain-specific dataset.
 
 | Dataset | # Train (seq.) | # Test (seq.) | # Number of Classes |
@@ -27,17 +32,17 @@ KCL-SSM was evaluated on four sentence matching datasets, including three public
 
 For the Foxconn dataset, the task focuses on matching colloquial user queries to 251 predefined standard questions in a real-world traffic adjudication customer service scenario.
 
+## Experimental Results
 
+## Project Structure
 
-
-# Environment Setting
+## Environment
 Suggested running environments: Linux Ubuntu 22.04.4, Python 3.9
 
 1. Install the Conda package for your system. The installation of the package can be found at <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">here<a/>
 
 2. Create the NLP Conda environment. This may take a while, depending on the network status
-
-
+## How to Run
 
 細節
 <img width="1550" height="725" alt="image" src="https://github.com/user-attachments/assets/dbcd0c3f-da4d-4350-8d83-6223aae426aa" />
