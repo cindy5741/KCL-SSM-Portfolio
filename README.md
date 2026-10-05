@@ -4,8 +4,18 @@ A sentence semantic matching framework for domain-specific question matching, in
 <img width="2401" height="988" alt="image" src="https://github.com/user-attachments/assets/58e27f52-f101-4c60-8242-bfcbb03ec929" />
 
 ## Overview
+KCL-SSM is a sentence semantic matching framework designed for domain-specific question matching. The framework adopts a teacher-student architecture with contrastive learning, knowledge graph-enhanced candidate retrieval, and hybrid scoring to address limited labeled data and diverse user expressions.
+The framework consists of three main phases:
 
-KCL-SSM is ...
+### Phase I: Model Construction
+LLM-generated synthetic queries are first used to enrich the training data with diverse expressions. A teacher-student architecture with contrastive learning is then developed to learn discriminative semantic representations. The teacher model is pretrained with the expanded LLM-generated synthetic data, while the student model learns from real-world user queries through knowledge distillation. In parallel, a domain-specific knowledge graph is constructed from keywords extracted from standard questions to capture relationships among domain concepts.
+
+### Phase II: Candidate Set Generation
+Given a user query, the Aho–Corasick (AC) algorithm is integrated with the domain-specific knowledge graph to retrieve relevant candidate standard questions. This candidate generation strategy reduces the search space for semantic matching and improves the efficiency of subsequent ranking.
+
+### Phase III: Query Sentence Matching
+The fine-tuned student model is used as the sentence encoder to obtain semantic representations of the user query and candidate standard questions. Semantic similarity is then combined with graph-based scores through a hybrid scoring strategy to improve the final ranking, particularly for complex or ambiguous queries.
+
 
 ### Phase I: Model Construction
 ...
