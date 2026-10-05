@@ -99,14 +99,18 @@ KCL-SSM was evaluated on four sentence matching datasets, including three public
 
 KCL-SSM was evaluated on three public intent classification benchmarks and one real-world domain-specific dataset.
 
-| Dataset   |      Acc@1/nDCG@1 |  Acc@3 |  Acc@5 |        MRR | nDCG@3 | nDCG@5 |
+| Dataset   |      Acc@1 |  Acc@3 |  Acc@5 |        MRR | nDCG@3 | nDCG@5 |
 | --------- | ---------: | -----: | -----: | ---------: | -----: | -----: |
 | Banking77 |     93.21% | 97.6% | 98.28% | 95.5% | 95.82% | 96.1% |
 | HWU64     |     94.8% | 97.86% | 98.88% |     96.52% | 96.52% | 96.67% |
 | CLINC150  |     97.42% | 99.29% | 99.44% |     98.37% | 98.56% | 98.6% |
 | Foxconn   | 73.81% | 86.9% | 88.1% |     80.61% | 81.5% | 80.2% |
 
-The results demonstrate the effectiveness of KCL-SSM for semantic matching across both public benchmark datasets and real-world domain-specific queries.
+### Foxconn Dataset
+
+The Foxconn dataset was collected through an industry–academia collaboration with a publicly listed company and originates from the Kaohsiung City Traffic Adjudication Office. It consists of real customer service queries from a transportation-related scenario and is designed for standard question matching.
+
+The dataset contains 251 standard questions, 1,809 training utterances, and 84 test utterances. As the data were collected from real customer service interactions, they reflect practical challenges in enterprise applications, including limited training data, highly colloquial user expressions, and overlapping fine-grained intents.
 
 ## Project Structure
 
