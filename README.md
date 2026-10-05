@@ -16,16 +16,6 @@ Given a user query, the Aho–Corasick (AC) algorithm is integrated with the dom
 ### Phase III: Query Sentence Matching
 The fine-tuned student model is used as the sentence encoder to obtain semantic representations of the user query and candidate standard questions. Semantic similarity is then combined with graph-based scores through a hybrid scoring strategy to improve the final ranking, particularly for complex or ambiguous queries.
 
-
-### Phase I: Model Construction
-...
-
-### Phase II: Candidate Set Generation
-...
-
-### Phase III: Query Sentence Matching
-...
-
 ## Key Features
 
 ## Methodology
